@@ -28,8 +28,8 @@ public class ChatServer {
         }
     }
     public static void main(String... args) {
-        JavaNetTrial jt = new JavaNetTrial();
-        jt.run();
+       ChatServer cServer = new ChatServer(); 
+        cServer.run();
     }
 }
 class ClientHandler implements Runnable{
